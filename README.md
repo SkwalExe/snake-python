@@ -22,7 +22,7 @@ pip install -r requirements.txt
 Finally, launch the game with python
     
 ```bash
-python src/maibn.py
+python src/main.py
 ```
 
 # Controls
