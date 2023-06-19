@@ -20,7 +20,6 @@ def main():
     hide_stdin()
     size = get_terminal_size()
     # Divide the width by 2 to account for the fact that a block is 2 characters wide
-    # Subtract 4 from the height and width to account for the text at the top and give some space around the edges 
     width = int(size.columns / 2) 
     height = int(size.lines - 2)
     paused = False
